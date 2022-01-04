@@ -1,0 +1,24 @@
+{
+  "name": "@byhow/eslint-config-base",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "byhow (https://github.com/byhow)",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^16.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0"
+  }
+}
