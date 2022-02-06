@@ -9,15 +9,15 @@ importers:
       lerna: ^4.0.0
       typescript: ^4.5.5
     devDependencies:
-      '@byhow/eslint-config': 0.1.0
+      '@byhow/eslint-config': link:packages/all
       eslint: 8.8.0
       lerna: 4.0.0
       typescript: 4.5.5
 
   packages/all:
     specifiers:
-      '@byhow/eslint-config-react': ^0.0.1
-      '@byhow/eslint-config-typescript': ^0.0.1
+      '@byhow/eslint-config-react': ^0.1.0
+      '@byhow/eslint-config-typescript': ^0.1.0
       eslint: ^8.8.0
       eslint-config-standard: ^16.0.3
       eslint-plugin-import: ^2.25.4
@@ -64,7 +64,7 @@ importers:
 
   packages/react:
     specifiers:
-      '@byhow/eslint-config-typescript': ^0.0.1
+      '@byhow/eslint-config-typescript': ^0.1.0
       eslint: ^8.8.0
       eslint-plugin-react: ^7.28.0
       react: ^17.0.2
@@ -79,7 +79,7 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@byhow/eslint-config-base': ^0.0.1
+      '@byhow/eslint-config-base': ^0.1.0
       '@typescript-eslint/eslint-plugin': ^5.10.2
       '@typescript-eslint/parser': ^5.10.2
       eslint: ^8.8.0
@@ -109,11 +109,6 @@ packages:
       '@babel/helper-validator-identifier': 7.16.7
       chalk: 2.4.2
       js-tokens: 4.0.0
-
-  /@byhow/eslint-config/0.1.0:
-    resolution: {integrity: sha512-0Z5bo8kgy6odA85byEeS7xYUir8Bo0lK4MZSI7wmeAwAsnq1/dAi+ulcz5AK7+cH3ZHgBlnJLIkQvF/d0aQw0A==}
-    requiresBuild: true
-    dev: true
 
   /@eslint/eslintrc/1.0.5:
     resolution: {integrity: sha512-BLxsnmK3KyPunz5wmCCpqy0YelEoxxGmH73Is+Z74oOTMtExcjkr3dDR6quwrjh1YspA8DH9gnX1o069KiS9AQ==}
