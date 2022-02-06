@@ -1,6 +1,6 @@
 {
   "name": "@byhow/eslint-config-react",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -19,7 +19,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@byhow/eslint-config-typescript": "^0.0.1",
+    "@byhow/eslint-config-typescript": "^0.1.0",
     "eslint-plugin-react": "^7.28.0"
   },
   "devDependencies": {

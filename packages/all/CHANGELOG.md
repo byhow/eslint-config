@@ -9,11 +9,3 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * add all and resolve config ([86d8a75](https://github.com/byhow/eslint-config/commit/86d8a7558a67d5efa634e27096c7db014d258c42))
-
-
-
-
-
-## 0.0.1 (2022-01-04)
-
-**Note:** Version bump only for package @byhow/eslint-config-typescript
