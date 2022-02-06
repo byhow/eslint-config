@@ -19,8 +19,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@byhow/eslint-config-react": "workspace:^0.0.1",
-    "@byhow/eslint-config-typescript": "workspace:^0.0.1",
+    "@byhow/eslint-config-react": "^0.0.1",
+    "@byhow/eslint-config-typescript": "^0.0.1",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-node": "^11.1.0",
