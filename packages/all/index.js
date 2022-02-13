@@ -3,4 +3,4 @@ module.exports = {
     '@byhow/eslint-config-typescript',
     '@byhow/eslint-config-react'
   ]
-}
+};

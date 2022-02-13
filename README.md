@@ -10,12 +10,12 @@
 pnpm add -D eslint @byhow/eslint-config
 ```
 
-### Config `.eslintrc`
+### Config `.eslintrc.js`
 
-```json
-{
-  "extends": [
-    "@byhow"
+```js
+module.exports = {
+  extends: [
+    '@byhow'
   ]
 }
 ```

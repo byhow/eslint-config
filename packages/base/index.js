@@ -79,6 +79,8 @@ module.exports = {
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
 
+    // semi
+    semi: [2, 'always'],
     'sort-imports': [
       'error',
       {
@@ -90,4 +92,4 @@ module.exports = {
       }
     ]
   }
-}
+};
